@@ -1,0 +1,12 @@
+10
+0 Flexo       2     2
+1 Sparky      5     4 0.45
+2 Shaky       1 1   2
+3 Turtle      1 3   3
+4 Vincent     5 10  4 2
+0 Twisty      1     1
+1 Weldomatic  8     8 1.68
+2 Spidey      2 4   8
+3 Jason       2 1   6
+4 Bob         4 4   1 1
+

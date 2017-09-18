@@ -1,0 +1,20 @@
+[Speed]
+The average speed is 3.28 circus-rings per second.
+The highest speed value is 11.88 by Jason.
+The lowest speed value is 0 by Weldomatic.
+
+[Strength]
+The average strength is 5.341 dinosaur-power.
+The highest strength value is 25.2 by Weldomatic.
+The lowest strength value is 0.123 by Shaky.
+
+[Toughness]
+The average toughness is 9.217 wrecking-balls.
+The highest toughness value is 69.75 by Weldomatic.
+The lowest toughness value is 0.175 by Spidey.
+
+[Intelligence]
+The average intelligence is 1.891 nano-Turings.
+The highest intelligence value is 4.4 by Bob.
+The lowest intelligence value is 0.4333 by Turtle.
+

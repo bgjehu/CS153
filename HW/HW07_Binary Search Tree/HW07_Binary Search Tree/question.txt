@@ -1,0 +1,1 @@
+1.would there be duplicated number to be inserted?

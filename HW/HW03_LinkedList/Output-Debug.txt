@@ -1,0 +1,319 @@
+﻿'HW03.exe' (Win32): Loaded 'C:\Users\bg\Desktop\HW03_LinkedList\Debug\HW03.exe'. Symbols loaded.
+'HW03.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. Cannot find or open the PDB file.
+'HW03.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. Cannot find or open the PDB file.
+'HW03.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. Cannot find or open the PDB file.
+'HW03.exe' (Win32): Loaded 'C:\Program Files\Visual Leak Detector\bin\Win32\vld_x86.dll'. Cannot find or open the PDB file.
+'HW03.exe' (Win32): Loaded 'C:\Windows\System32\advapi32.dll'. Cannot find or open the PDB file.
+'HW03.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. Cannot find or open the PDB file.
+'HW03.exe' (Win32): Loaded 'C:\Windows\System32\sechost.dll'. Cannot find or open the PDB file.
+'HW03.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. Cannot find or open the PDB file.
+'HW03.exe' (Win32): Loaded 'C:\Program Files\Visual Leak Detector\bin\Win32\dbghelp.dll'. Cannot find or open the PDB file.
+'HW03.exe' (Win32): Loaded 'C:\Windows\System32\msvcp110d.dll'. Symbols loaded.
+'HW03.exe' (Win32): Loaded 'C:\Windows\System32\msvcr110d.dll'. Symbols loaded.
+Visual Leak Detector Version 2.3 installed.
+WARNING: Visual Leak Detector detected memory leaks!
+---------- Block 36 at 0x0024B108: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (158): HW03.exe!LinkedList<int>::insert_front + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (157): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    41 00 00 00    88 BE 24 00                                   A.....$. ........
+
+
+---------- Block 37 at 0x0024B150: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (158): HW03.exe!LinkedList<int>::insert_front + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (157): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    00 00 00 00    08 B1 24 00                                   ......$. ........
+
+
+---------- Block 38 at 0x0024B198: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (158): HW03.exe!LinkedList<int>::insert_front + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (157): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    0A 00 00 00    50 B1 24 00                                   ....P.$. ........
+
+
+---------- Block 39 at 0x0024B1E0: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (158): HW03.exe!LinkedList<int>::insert_front + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (157): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    14 00 00 00    98 B1 24 00                                   ......$. ........
+
+
+---------- Block 40 at 0x0024B228: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (158): HW03.exe!LinkedList<int>::insert_front + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (157): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    1E 00 00 00    E0 B1 24 00                                   ......$. ........
+
+
+---------- Block 41 at 0x0024B270: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (158): HW03.exe!LinkedList<int>::insert_front + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (157): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    28 00 00 00    28 B2 24 00                                   (...(.$. ........
+
+
+---------- Block 42 at 0x0024B3D8: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (158): HW03.exe!LinkedList<int>::insert_front + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (157): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    32 00 00 00    70 B2 24 00                                   2...p.$. ........
+
+
+---------- Block 43 at 0x0024B420: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (158): HW03.exe!LinkedList<int>::insert_front + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (157): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    3C 00 00 00    D8 B3 24 00                                   <.....$. ........
+
+
+---------- Block 44 at 0x0024B468: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (158): HW03.exe!LinkedList<int>::insert_front + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (157): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    46 00 00 00    20 B4 24 00                                   F.....$. ........
+
+
+---------- Block 45 at 0x0024B4B0: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (158): HW03.exe!LinkedList<int>::insert_front + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (157): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    50 00 00 00    68 B4 24 00                                   P...h.$. ........
+
+
+---------- Block 82 at 0x0024BE88: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (108): HW03.exe!LinkedList<int>::operator= + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (128): HW03.exe!LinkedList<int>::LinkedList<int>
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (206): HW03.exe!LinkedList<int>::append + 0xC bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (206): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    3C 00 00 00    D0 BE 24 00                                   <.....$. ........
+
+
+---------- Block 83 at 0x0024BED0: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (112): HW03.exe!LinkedList<int>::operator= + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (128): HW03.exe!LinkedList<int>::LinkedList<int>
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (206): HW03.exe!LinkedList<int>::append + 0xC bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (206): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    37 00 00 00    18 BF 24 00                                   7.....$. ........
+
+
+---------- Block 84 at 0x0024BF18: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (112): HW03.exe!LinkedList<int>::operator= + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (128): HW03.exe!LinkedList<int>::LinkedList<int>
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (206): HW03.exe!LinkedList<int>::append + 0xC bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (206): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    32 00 00 00    60 BF 24 00                                   2...`.$. ........
+
+
+---------- Block 85 at 0x0024BF60: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (112): HW03.exe!LinkedList<int>::operator= + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (128): HW03.exe!LinkedList<int>::LinkedList<int>
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (206): HW03.exe!LinkedList<int>::append + 0xC bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (206): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    2D 00 00 00    A8 BF 24 00                                   -.....$. ........
+
+
+---------- Block 86 at 0x0024BFA8: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (112): HW03.exe!LinkedList<int>::operator= + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (128): HW03.exe!LinkedList<int>::LinkedList<int>
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (206): HW03.exe!LinkedList<int>::append + 0xC bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (206): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    28 00 00 00    F0 BF 24 00                                   (.....$. ........
+
+
+---------- Block 87 at 0x0024BFF0: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (112): HW03.exe!LinkedList<int>::operator= + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (128): HW03.exe!LinkedList<int>::LinkedList<int>
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (206): HW03.exe!LinkedList<int>::append + 0xC bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (206): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    23 00 00 00    38 C0 24 00                                   #...8.$. ........
+
+
+---------- Block 88 at 0x0024C038: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (112): HW03.exe!LinkedList<int>::operator= + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (128): HW03.exe!LinkedList<int>::LinkedList<int>
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (206): HW03.exe!LinkedList<int>::append + 0xC bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (206): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    1E 00 00 00    80 C0 24 00                                   ......$. ........
+
+
+---------- Block 89 at 0x0024C080: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (112): HW03.exe!LinkedList<int>::operator= + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (128): HW03.exe!LinkedList<int>::LinkedList<int>
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (206): HW03.exe!LinkedList<int>::append + 0xC bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (206): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    19 00 00 00    C8 C0 24 00                                   ......$. ........
+
+
+---------- Block 90 at 0x0024C0C8: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (112): HW03.exe!LinkedList<int>::operator= + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (128): HW03.exe!LinkedList<int>::LinkedList<int>
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (206): HW03.exe!LinkedList<int>::append + 0xC bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (206): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    14 00 00 00    10 C1 24 00                                   ......$. ........
+
+
+---------- Block 91 at 0x0024C110: 8 bytes ----------
+  Call Stack:
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (112): HW03.exe!LinkedList<int>::operator= + 0x7 bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (128): HW03.exe!LinkedList<int>::LinkedList<int>
+    c:\users\bg\desktop\hw03_linkedlist\hw03\linkedlist.hpp (206): HW03.exe!LinkedList<int>::append + 0xC bytes
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (206): HW03.exe!test04
+    c:\users\bg\desktop\hw03_linkedlist\hw03\largetester.cpp (286): HW03.exe!main
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (536): HW03.exe!__tmainCRTStartup + 0x19 bytes
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c (377): HW03.exe!mainCRTStartup
+    0x752E1174 (File and line number not available): kernel32.dll!BaseThreadInitThunk + 0x12 bytes
+    0x76E9B3F5 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x63 bytes
+    0x76E9B3C8 (File and line number not available): ntdll.dll!RtlInitializeExceptionChain + 0x36 bytes
+  Data:
+    CD CD CD CD    00 00 00 00                                   ........ ........
+
+
+Visual Leak Detector detected 20 memory leaks (880 bytes).
+Largest number used: 3300 bytes.
+Total allocations: 5368 bytes.
+Visual Leak Detector is now exiting.
+The program '[3144] HW03.exe' has exited with code 0 (0x0).

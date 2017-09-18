@@ -1,0 +1,222 @@
+Hello Tree Tester!! 
+
+
+***** Test #1
+
+Tree empty? true
+--
+
+        13
+
+            10
+
+    9
+
+7
+
+        6
+
+    5
+
+        4
+
+Tree empty? false
+--
+height = 4
+size = 7
+--
+
+
+***** Test #2
+
+            U
+
+        S
+
+                L
+
+            K
+
+    G
+
+F
+
+        C
+
+            B
+
+    A
+
+--
+Min = A
+Max = U
+
+
+***** Test #3
+
+        Zoidberg
+
+    Ringo
+
+Paul
+
+        Leela
+
+    John
+
+        George
+
+            Fry
+
+--
+Testing Operator = 
+
+        Zoidberg
+
+    Ringo
+
+Paul
+
+        Leela
+
+    John
+
+        George
+
+            Fry
+
+--
+Is it a deep copy? 
+-- copy:
+
+    Zoidberg
+
+Paul
+
+        Leela
+
+    Fry
+
+-- original:
+
+        Zoidberg
+
+    Ringo
+
+Paul
+
+        Leela
+
+    John
+
+        George
+
+            Fry
+
+
+
+***** Test #4
+
+        Soda
+
+    Shake
+
+        Salad
+
+Pizza
+
+        HotDog
+
+            Fry
+
+    Burger
+
+--
+Testing Copy COnstructor 
+
+        Soda
+
+    Shake
+
+        Salad
+
+Pizza
+
+        HotDog
+
+            Fry
+
+    Burger
+
+--
+Is it a deep copy? 
+-- copy:
+
+        Soda
+
+    Shake
+
+HotDog
+
+    Burger
+
+-- original:
+
+        Soda
+
+    Shake
+
+        Salad
+
+Pizza
+
+        HotDog
+
+            Fry
+
+    Burger
+
+
+
+***** Test #5
+Tree empty? true
+--
+PANIC : Tree is Empty!!
+PANIC : Tree is Empty!!
+
+
+***** Test #6
+--
+
+        13
+
+            10
+
+    9
+
+7
+
+        6
+
+    5
+
+        4
+
+--
+Pre Order:
+7
+5
+4
+6
+9
+13
+10
+--
+Post Order
+4
+6
+5
+10
+13
+9
+7

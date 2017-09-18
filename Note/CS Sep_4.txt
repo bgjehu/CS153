@@ -1,0 +1,48 @@
+//Sep 4
+*Abstract Data Type_Definition: a mathematical object togather with operations
+	*Programming is about problem solving but not about C++ keywords
+	*For ploblem solving we need math
+
+*Data Structure_Definition:a particular implementation of an A.D.T.
+
+A.D.T.				D.S.
+Interger			int (long)
++ - * =				
+MOD DIV				
+real numbers			float
+proposition			bool
+Matrix				
+Vector
+Set
+Sequences
+Graph
+
+
+*Formalize Problem (by using a Mathematical object)
+	-GRAPH
+	-Incempatible turns are connected
+	-Partitioning a graph = coloring a graph
+
+
+ABCDE roads (star shaped)
+B only out
+E only in
+
+AE	AD	AC
+BA	BC	BD	BE
+CA	CD	CE
+
+no	AC-BC,AC-BD,AD-BD,
+	BE-AE,BE-AD,BE-AC,
+	CA-BA,CA-BC,CA-BD,CA-BE
+
+*Formulate an Algorithm	(establish the required operations) A.D.T
+	algorithm draft1
+		pick a vertex V
+		pick a color C
+		while there is uncolored vertices
+			for every vertex u
+				if u is not adjacent to V
+					color u by C
+*Refine Algorithm (getting draft closer to C++)
+*Code

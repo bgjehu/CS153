@@ -1,0 +1,24 @@
+﻿Build started 2013/8/26 雁昼 11:06:31.
+     1>Project "D:\CS153\HW01\HW01\HW01.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\HW01.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt fishbomb.cpp /clr:nostdlib 
+         fishbomb.cpp
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CS153\HW01\Debug\HW01.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\HW01.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\CS153\HW01\Debug\HW01.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\fishbomb.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         HW01.vcxproj -> D:\CS153\HW01\Debug\HW01.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\CS153\HW01\Debug\HW01.exe;#1" /manifest Debug\HW01.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\HW01.unsuccessfulbuild".
+         Touching "Debug\HW01.lastbuildstate".
+     1>Done Building Project "D:\CS153\HW01\HW01\HW01.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.91

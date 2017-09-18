@@ -1,0 +1,82 @@
+*HW#1 due
+	Wednesday
+*Test #1
+	Friday 20th
+
+
+L1=<a,f,d,e,g>
+
+L1 |a|->|f|->|d|->|e|->|g|->|sentinel|NULL|
+
+size(L1)=5
+
+class LinkedList
+{
+	T m_data;
+	LinkedList* m_next;
+}
+****************************************
+int size()
+{
+	LinkedList* r;
+	r=this;
+	int counter=0;
+	while(r->m_next!=NULL)
+	{
+		counter++;
+		r=r->m_next;
+	}
+	return counter;
+}
+
+
+****************************************
+at(L1,3)=e;
+
+
+const T& at (int i)
+{
+	LinkedList* r;
+	r=this;
+	int counter=0;
+	while(r->m_next!=NULL&&counter<i)
+	{
+		counter++;
+		r=r->m_next;
+	}
+	if(r->m_next!=NULL){return r->m_data;}
+	else{error:invalid i}
+}
+
+***************************************
+LinkedList* ptr_at(int i)
+insert(L1,3,c)=<a,f,d,c,e,g>
+
+mechanism:
+new |e|->|g|
+chage old |e| to |c|
+switch |c|-> |e|
+
+insert(LinkedList* p,const T& x)
+{
+	LinkedList* tmp;
+	tmp=new LinkedList;
+	tmp->m_next=p->m_next;
+	tmp->m_data=p->m_data;
+	p->m_data=x;
+	p->m_next=tmp;
+}
+
+***************************************
+create tmp pointer that points to the next element
+get the data from the next element
+make p point to next element
+delete tmp pointer
+
+delete(LinkedList* p,const T& x)
+{
+	LinkedList* tmp=p->m_next;
+	p->m_data=tmp->m_data;
+	p->m_next=tmp->m_next;
+	delete tmp;	
+}

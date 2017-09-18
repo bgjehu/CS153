@@ -1,0 +1,275 @@
+Hello Max Heap Tester!! 
+
+
+******** Test #1
+
+Heap empty? true
+--
+
+        4
+
+    10
+
+        7
+
+15
+
+        6
+
+    13
+
+            2
+
+        9
+
+            5
+
+Heap empty? false
+-
+size = 9
+-
+
+
+******** Test #2
+
+    Beta
+
+Sigma
+
+        Gamma
+
+    Pi
+
+        Alpha
+
+-
+Testing Clear() 
+
+Heap empty? true
+
+    Three
+
+Two
+
+        Five
+
+    One
+
+        Four
+
+
+
+******** Test #3
+
+            21
+
+        66
+
+            4
+
+    81
+
+            17
+
+        58
+
+            43
+
+98
+
+            41
+
+        59
+
+            43
+
+                12
+
+    96
+
+                48
+
+            74
+
+                35
+
+        92
+
+                40
+
+            62
+
+                40
+
+-
+98, 96, 92, 81, 74, 66, 62, 59, 58, 48, 43, 43, 41, 40, 40, 35, 21, 17, 12, 4, 
+
+Heap empty? true
+
+
+******** Test #4
+
+        Leela
+
+    Ringo
+
+        George
+
+Zoidberg
+
+        Fry
+
+    Paul
+
+        John
+
+-
+Testing Operator = 
+
+        Leela
+
+    Ringo
+
+        George
+
+Zoidberg
+
+        Fry
+
+    Paul
+
+        John
+
+--
+Is it a deep copy? 
+-- copy:
+
+    Fry
+
+Leela
+
+    John
+
+        George
+
+-- original:
+
+        Leela
+
+    Ringo
+
+        George
+
+Zoidberg
+
+        Fry
+
+    Paul
+
+        John
+
+-
+Testing Alias Test = 
+
+    Fry
+
+Leela
+
+    John
+
+        George
+
+
+
+******** Test #5
+
+        414
+
+    741
+
+        155
+
+755
+
+        60
+
+            53
+
+    698
+
+            339
+
+        572
+
+            67
+
+-
+Testing Copy COnstructor 
+
+        414
+
+    741
+
+        155
+
+755
+
+        60
+
+            53
+
+    698
+
+            339
+
+        572
+
+            67
+
+-
+Is it a deep copy? 
+-- copy:
+
+        53
+
+    414
+
+        155
+
+572
+
+        60
+
+    339
+
+        67
+
+-- original:
+
+        414
+
+    741
+
+        155
+
+755
+
+        60
+
+            53
+
+    698
+
+            339
+
+        572
+
+            67
+
+
+
+******** Test #6
+Testing Exceptions 
+Heap empty? true
+--
+ERROR: Empty Heap does not has a top element

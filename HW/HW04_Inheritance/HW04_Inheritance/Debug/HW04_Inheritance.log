@@ -1,0 +1,33 @@
+﻿Build started 2013/10/16 雁昼 10:01:08.
+     1>Project "C:\Users\Administrator\Desktop\HW04_Inheritance\HW04_Inheritance\HW04_Inheritance.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt allrobots.cpp
+         allrobots.cpp
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(57): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(61): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(65): warning C4305: 'return' : truncation from 'double' to 'float'
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(69): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(97): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(101): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(105): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(109): warning C4305: 'return' : truncation from 'double' to 'float'
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(135): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(139): warning C4305: 'return' : truncation from 'double' to 'float'
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(143): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(147): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(172): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(176): warning C4305: 'return' : truncation from 'double' to 'float'
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(180): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(184): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(212): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(216): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(220): warning C4305: 'return' : truncation from 'double' to 'float'
+     1>c:\users\administrator\desktop\hw04_inheritance\hw04_inheritance\robotclasses.h(224): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\HW04_Inheritance\Debug\HW04_Inheritance.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\HW04_Inheritance\Debug\HW04_Inheritance.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\HW04_Inheritance\Debug\HW04_Inheritance.lib" /MACHINE:X86 Debug\allrobots.obj
+         HW04_Inheritance.vcxproj -> C:\Users\Administrator\Desktop\HW04_Inheritance\Debug\HW04_Inheritance.exe
+     1>Done Building Project "C:\Users\Administrator\Desktop\HW04_Inheritance\HW04_Inheritance\HW04_Inheritance.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.27

@@ -1,0 +1,16 @@
+﻿Build started 2013/10/30 下午 5:20:32.
+Project "C:\Dropbox\Dev\CS153\HW\HW05_stack\HW05_stack\HW05_stack.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt robotcalc.cpp
+  robotcalc.cpp
+c:\dropbox\dev\cs153\hw\hw05_stack\hw05_stack\abstractstack.h(42): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+          c:\dropbox\dev\cs153\hw\hw05_stack\hw05_stack\abstractstack.h(48) : see reference to class template instantiation 'AbstractStack<T>' being compiled
+c:\dropbox\dev\cs153\hw\hw05_stack\hw05_stack\arraystack.hpp(15): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+          c:\dropbox\dev\cs153\hw\hw05_stack\hw05_stack\arraystack.hpp(21) : see reference to class template instantiation 'ArrayStack<T>' being compiled
+c:\dropbox\dev\cs153\hw\hw05_stack\hw05_stack\arraystack.hpp(34): error C2039: '{dtor}' : is not a member of 'ArrayStack<T>'
+c:\dropbox\dev\cs153\hw\hw05_stack\hw05_stack\arraystack.hpp(69): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+Done Building Project "C:\Dropbox\Dev\CS153\HW\HW05_stack\HW05_stack\HW05_stack.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.55

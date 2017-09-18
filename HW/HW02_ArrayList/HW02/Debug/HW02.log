@@ -1,0 +1,45 @@
+﻿Build started 2013/9/27 上午 10:05:06.
+Project "C:\Dropbox\Dev\CS153\HW\HW02_ArrayList\HW02\HW02.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt largetester.cpp
+  largetester.cpp
+c:\dropbox\dev\cs153\hw\hw02_arraylist\hw02\arraylist.hpp(48): warning C4812: obsolete declaration style: please use 'ArrayList<T>::ArrayList' instead
+c:\dropbox\dev\cs153\hw\hw02_arraylist\hw02\largetester.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+c:\dropbox\dev\cs153\hw\hw02_arraylist\hw02\largetester.cpp(222): warning C4018: '<' : signed/unsigned mismatch
+c:\dropbox\dev\cs153\hw\hw02_arraylist\hw02\largetester.cpp(264): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+c:\dropbox\dev\cs153\hw\hw02_arraylist\hw02\largetester.cpp(281): warning C4305: 'argument' : truncation from 'double' to 'const float'
+c:\dropbox\dev\cs153\hw\hw02_arraylist\hw02\arraylist.h(179): warning C4018: '<' : signed/unsigned mismatch
+          c:\dropbox\dev\cs153\hw\hw02_arraylist\hw02\largetester.cpp(19) : see reference to function template instantiation 'std::ostream &operator <<<int>(std::ostream &,const ArrayList<T> &)' being compiled
+          with
+          [
+              T=int
+          ]
+c:\dropbox\dev\cs153\hw\hw02_arraylist\hw02\arraylist.hpp(48): warning C4812: obsolete declaration style: please use 'ArrayList<T>::ArrayList' instead
+          with
+          [
+              T=char
+          ]
+          c:\dropbox\dev\cs153\hw\hw02_arraylist\hw02\arraylist.hpp(49) : while compiling class template member function 'ArrayList<T>::ArrayList(const ArrayList<T> &)'
+          with
+          [
+              T=char
+          ]
+          c:\dropbox\dev\cs153\hw\hw02_arraylist\hw02\largetester.cpp(191) : see reference to function template instantiation 'ArrayList<T>::ArrayList(const ArrayList<T> &)' being compiled
+          with
+          [
+              T=char
+          ]
+          c:\dropbox\dev\cs153\hw\hw02_arraylist\hw02\largetester.cpp(150) : see reference to class template instantiation 'ArrayList<T>' being compiled
+          with
+          [
+              T=char
+          ]
+Link:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Dropbox\Dev\CS153\HW\HW02_ArrayList\Debug\HW02.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Dropbox\Dev\CS153\HW\HW02_ArrayList\Debug\HW02.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Dropbox\Dev\CS153\HW\HW02_ArrayList\Debug\HW02.lib" /MACHINE:X86 Debug\largetester.obj
+  LINK : C:\Dropbox\Dev\CS153\HW\HW02_ArrayList\Debug\HW02.exe not found or not built by the last incremental link; performing full link
+  HW02.vcxproj -> C:\Dropbox\Dev\CS153\HW\HW02_ArrayList\Debug\HW02.exe
+Done Building Project "C:\Dropbox\Dev\CS153\HW\HW02_ArrayList\HW02\HW02.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.97

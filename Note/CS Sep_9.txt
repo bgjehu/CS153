@@ -1,0 +1,84 @@
+*Test #1 next week Sep_20
+*Sat 14th Picnic!
+*HW #2 posted
+*submit HW #1.5 for 80% revised hw
+
+
+*ArrayLists
+empty list
+Le=<>		->	m_data NULL
+
+			m_size 	|0|
+		
+			m_max	|0|
+
+
+
+L1=<a,p,b,f,e>	->	m_data	|a|p||b|f|e| | | |
+			
+			m_size	|5|
+			
+			m_max	|8|
+******************************************************************************************************
+template <classname T>
+class ArrayList
+{
+	int m_size;
+	int m_max;
+	T *m_data;
+}
+
+Fn: 		intert(L,i,x) 
+example:	intert(L1,3,d) makes L1=<a,p,b,d,f,e>
+codes:
+
+void insert(int i,const T &x) //int i->location, const T &x->data
+{
+	if(i<m_size&&i>0)
+	{}
+	else{//error msg}
+
+	if(m_size==m_max)
+	{
+	//when m_size=m_max, full array
+	T* tmp;
+	tmp=new T[m_max*2];
+	for(int k=0;k<m_size;k++)
+	{	
+		tmp[k]=m_data[k];	
+	}
+	delete []m_data;
+	m_data=tmp;
+	m_max=m_max*2;
+	//could be optimize with creating new array for m_data, instead of let m_data point at the same array that tmp pointing to.
+	}
+
+	for(int k=m_size;k>i;k--)    //only works when i<m_size, i>0 and m_size<m_max
+	{
+		m_data[k]=m_data[k-1];
+	}
+	m_data[i]=x;
+	m_size++;
+
+
+
+}
+******************************************************************************************************
+Fn:	remove(L,i)
+example remove(L1,1) makes L1=<a,b,f,e>
+code:
+void remove(int i)
+{
+	if(i<m_size&&i>=0)
+	{
+		for(int k=i;k<m_size-1;k++)
+		{
+			m_data[k]=m_data[k+1];	
+		}
+		m_size--;
+	}
+
+
+
+}
+******************************************************************************************************
